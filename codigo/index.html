@@ -2,6 +2,11 @@
 <html>
 <head>
     <title>Pagina  Web Dei</title>
+    <style>
+        table,th,td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Pagina Web Dei</h1>
@@ -13,6 +18,18 @@
     <a target="_blank" href="https://www.google.com" >Ir a google</a>
     </p>
     <img src="gatitos.jpeg" width="300"/>
+
+    <u>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </u>
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
     <form action="/formulario" method="post">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" placeholder="Nombre">
@@ -24,6 +41,19 @@
         <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje aqui..." cols="20" rows="5"></textarea>
         <br>
         <input type="submit" value="Enviar">
+        <button type="button">Cancelar</button>
+        <button type="reset">Rest</button>
     </form>
+    <br>
+    <table style="border: 1px solid black;">
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Producto 1</td>
+            <td>$10.00</td>
+        </tr>
+    </table>
 </body>
 </html>
