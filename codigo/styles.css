@@ -1,3 +1,10 @@
-body {
+#titulo {
     color: blueviolet;
 }
+article.post {
+    color: yellow;
+}
+article.especial {
+    color: red;
+}
+/* Comentario */
